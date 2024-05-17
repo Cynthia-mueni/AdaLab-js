@@ -15,7 +15,7 @@ const totalSum = (numbers) =>{
     for(let num of numbers){
         sum += num
     }
-    return sum;
+    return sum;  
 }
 console.log(totalSum([2,3,4,5,6,7,8]))
 
