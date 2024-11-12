@@ -26,3 +26,18 @@ const student=new Student('Jane',19,'AkiraChix');
 console.log({student});
 student.profession();
 
+class Rectangle{
+    constructor (length,width){
+        this.length=length
+        this.width=width
+    }
+    calculateArea(){
+        let area=width*length
+        return area
+    }
+  
+}
+console.log(calculateArea(10,20))
+
+
+
